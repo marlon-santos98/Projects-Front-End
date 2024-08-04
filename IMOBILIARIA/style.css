@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    font-family: tahoma;
+}
+
+div{
+    text-align: center;
+}
+
+.secao-topo img{
+    width: 200px;
+    padding: 30px;
+}
+
+.secao-topo{
+    background-color: #B0DDFC;
+    margin: 0 auto;
+}
+
+.link-topo{
+    margin: 15px 25px;
+    text-align: center;
+    padding-bottom: 45px;
+    margin-top: -30px;
+}
+
+.link-topo .link{
+    color: #1d1d1d;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 18px;
+}
+
+.secao-banner{
+    padding: 25px 60px;
+}
+
+.img-assinatura{
+    width: 400px;
+}
+
+h2{
+    color: #5B8096;
+    font-weight: normal;
+    margin-top: -20px;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+.justificado{
+    margin: 0 auto;
+    text-align: justify;
+    width: 900px;
+    line-height: 26px;
+    padding-bottom: 50px;
+}
+
+span{
+    font-weight: bold;
+    color: #3678A6;
+}
+
+.servicos{
+    background-color: #1D80C1;
+    padding: 50px 0;
+    margin-bottom: 80px;
+    height: 350px;
+    
+}
+
+.subtitulo{
+    font-weight: bold;
+    color: white;
+}
+
+.texto-destaque{
+    color: yellow;
+}
+
+.paragrafo{
+    margin: 0px 370px;
+    line-height: 33px;
+    color: white;
+}
+
+.listas{
+    margin: 40px auto;
+    width: 135px;
+    text-align: left;
+}
+
+.corretores{
+    color:#1D80C1 ;
+    margin-bottom: 30px;
+}
+
+.rodape{
+    background-color: #1D80C1;
+    height: 730px;
+}
+
+.contato{
+    padding: 60px 0px 10px 0px;
+}
+
+iframe{
+    width: 800px;
+    height: 400px;
+    margin-bottom: 25px;
+}
+
+.fundo-preto{
+    background-color: black;
+    color: white;
+    padding: 13px 5px;
+    margin: 0px 190px 0px 190px;
+}
+
+.lista-rodape{
+    background-color: white;
+    border-radius: 4px;
+    padding: 1px;
+    width: 210px;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.lista-dois{
+    margin-top: 10px;
+    width: 160px;
+}
+
+.lista-tres{
+    width: 140px;
+}
+
+.a{
+    color: #1D80C1;
+}
