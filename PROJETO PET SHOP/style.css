@@ -1,0 +1,180 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.banner{
+    background-image: url(img/banner-topo.jpg);
+    width: 100%;
+    padding: 120px 80px;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+
+.logotipo{
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    color: #3c184e;
+    margin-left: 0;
+}
+
+.p1{
+    font-size: 35px;
+    margin-bottom: 0px 0px 5px 0px;
+    text-align: center;
+    display: inline;
+    font-weight: 500;
+}
+
+.p2{
+    width: 260px;
+    font-size: 14px;
+    text-align: center;
+}
+
+img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.container2{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 70px;
+    margin: 0 auto 0 auto;
+    background-color: #ffffffc4;
+    text-align: center;
+    height: 290px;
+    margin-top: 80px;
+}
+
+.p3{
+    font-weight: 800;
+    font-size: 60px;
+    color: #3c184e;
+    margin-bottom: 30px;
+}
+
+a{
+    color: white;
+    background-color: #3c184e;
+    border-radius: 10px;
+    padding: 10px 25px;
+}
+
+.service{
+    color: #3c184e;
+    height: 700px;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.service1{
+    margin: 0 auto;
+    padding: 0px 210px 0px 210px;
+    font-size: 15px;
+}
+
+.p{
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.h2service{
+    margin: 90px 0px 50px 0px;
+    text-align: center;
+}
+
+.imgservice{
+    height: 190px;
+    width:115px;
+    max-width: 1024;
+    margin-left: -7px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px #0000005c;
+    margin: 0 auto;
+}
+
+.imagens{
+    max-width: 1024px;
+    margin-bottom: -170px;
+}
+
+.conteudo{
+    background-color: #3c184e;
+    height: 300px;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.p4{
+    padding: 110px 0 30px 0px;
+    font-size: 25px;
+    color: white;
+}
+
+.conteudo2{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.marcas{
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.marca1 img{
+    height: 90px;
+    width: 150px;
+}
+
+.marca1 h2{
+    margin-bottom: 50px;
+}
+
+.rodape{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rodape h2{
+    color: #3c184e;
+    font-weight: bold;
+    margin: 80px 0px 40px 0px;
+}
+
+.rodape p{
+    margin-bottom: 40px;
+}
+
+iframe{
+    width: 900px;
+    max-width: 1024px;
+    min-width: 500px;
+    margin-bottom: 90px;
+}
+
+.developer{
+    background-color: #3c184e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1500px;
+    min-width: 500px;
+}
+
