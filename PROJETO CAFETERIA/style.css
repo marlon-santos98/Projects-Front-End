@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.topo{
+    background-color: #604829;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    height: 55px;
+}
+
+.top-link{
+    margin-left: 600px;
+    margin-top: 15px;
+}
+
+.img-top{
+    margin-left: 160px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    color: #c4a47c;
+    margin-left: 15px;
+}
+
+.container-foto-1{
+    background-image: url(img/assets/parallax-imagem1.png);
+    background-attachment: fixed;
+    height: 600px;
+    background-size: cover;
+    padding-top: 50px;
+}
+
+.container-foto-1 h2{
+    font-size: 65px;
+    color: white;
+    margin-top: 280px;
+    text-align: center;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 400;
+}
+
+.container-2{
+    height: 250px;
+    margin: 0 auto;
+    margin: 50px 150px 50px 190px;
+}
+
+.container-2 h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: #C4A789;
+    font-weight: 500;
+}
+
+.container-2 p{
+    line-height: 30px;
+    text-align: center;
+    font-family: 'Lato',sans-serif;
+    justify-content: center;
+    width: 820px;
+    font-size: 15px;
+}
+
+.container-2 .p1{
+    text-align: center;
+    width: 810px;
+}
+
+.container-3{
+    background-image: url(img/assets/parallax-imagem2.jpg);
+    height: 300px;
+    background-attachment: fixed;
+}
+
+.container-3 h3{
+    width: 300px;
+    margin: 0 auto;
+    background-color: #604829;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 2px
+}
+
+.cont{
+    padding-top: 150px;
+}
+
+.quatro{
+    background-image: url(img/assets/parallax-imagem3.jpg);
+}
+
+.container-4{
+    background-image: url(img/assets/parallax-imagem4.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+iframe{
+    margin-left: 230px;
+    height: 500px;
+    width: 900px;
+    padding: 90px;
+}
+
+.contato{
+    padding-top: 50px;
+}
+
+.container-4 h3{
+    background-color: #604829;
+    width: 280px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.container-4 p{
+    background-color: #604829;
+    width: 380px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.rodape{
+    background-image: url(img/assets/cafeteria.jpg);
+    height: 800px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+.h3{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 70px 0px 180px 0px;
+}
+
+.lista h3{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 190px;
+    font-weight: 400;
+    position: relative;
+    top: 10px;
+}
+
+.lista p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 950px;
+    position: relative;
+    bottom: 15px;
+}
+
+.lista div{
+    background-color: white;
+    height: 1px;
+    margin-left: 280px;
+    width: 50%;
+}
+
+.direitos{
+    background-color: black;
+    height: 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.p1{
+    padding-top: 10px;
+}
+
+.p2{
+    padding-bottom: 10px;
+    background-color: black;
+}
