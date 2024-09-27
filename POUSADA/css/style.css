@@ -1,0 +1,275 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+/*estilização topo da página*/
+
+.topo-container{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    position: fixed;
+    z-index: 100;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.topo-container h1 a{
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+span{
+    color: #7D9DC0;
+}
+
+.topo-container a{
+    padding-left: 30px;
+    font-size: 1.2rem;
+}
+
+.title-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    width: 512px;
+}
+
+.links-topo{
+    width: 512px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+/*estilização 1° container da página*/
+
+.first-container{
+    background-image: url(../assets/img-fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.content-first-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-color: #29A88F;
+    margin: auto;
+    background-color: rgba(41, 168, 143, 0.7);
+    width: 500px;
+    height: 200px;
+    border: 1px solid white;
+    position: relative;
+}
+
+.content-first-container h2{
+    font-size: 3.0rem;
+    margin-bottom: 0px;
+}
+
+.content-first-container p{
+    font-size: 1.4rem;
+}
+
+/*estilização segundo container*/
+
+.second-container{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.content-second-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.content-second-container h2{
+    font-weight: 300;
+    font-size: 2.3rem;
+}
+
+.second-container-img{
+
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1;
+}
+
+.second-container-img img{
+    width: 330px;
+    height: 250px;
+}
+
+.card p{
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #29A88F;
+}
+
+/*estilização 3 container*/
+
+.thirdy-container{
+    width: 100%;
+}
+
+.thirdy-container h2{
+    margin-top: 80px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.8rem;
+}
+
+.thirdy-container p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.thirdy-container iframe{
+    margin: 0 auto;
+    width: 100%;
+    flex: 1 1;
+    margin-bottom: 50px;
+}
+
+/*4° container */
+
+.fourth-container h2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.9rem;
+}
+
+.fourth-container p{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rooms{
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.cards{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 90px;
+}
+
+.card-content{
+    width: 250px;
+    padding: 10px;
+    margin-bottom: -70px;
+}
+
+.card-content p{
+    text-align: left;
+
+}
+
+.rooms img{
+    width: 200px;
+    height: 190px;
+}
+
+/*rodape*/
+
+.foot{
+    width: 100%;
+    background-color: #49997C;
+    height: 380px;
+    margin-top: 90px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-foot{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.container-foot h3{
+    width: 100%;
+    max-width: 1024px;
+}
+
+.container-foot p{
+    width: 100%;
+    max-width: 1024px;
+}
+
+.container-foot a{
+    color: white;
+    width: 100%;
+    max-width: 1024px;
+}
+
+
+.p {
+        border-top: 1px solid #2f745a;
+        width: 100%; /* Ocupa 100% da tela em telas pequenas */
+        max-width: 1024px; /* Define uma largura máxima */
+        padding-top: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+.subdiv{
+    text-align: center;
+    flex: 1 1 90px;
+    flex-direction: column;
+}
+
+
+
