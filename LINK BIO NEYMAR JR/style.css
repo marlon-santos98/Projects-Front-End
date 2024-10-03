@@ -1,0 +1,387 @@
+body{
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; 
+}
+
+.class{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.menino-ney img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 215px;
+    height: 215px;
+    background: linear-gradient(90deg, #ffdf00, #009c3b);
+    border-radius: 100%;
+}
+
+.borda-gradiente{
+    width: 215px;
+    height: 215px;
+    background: linear-gradient(90deg, #ffdf00, #009c3b);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden; 
+}
+
+div h1{
+    font-family: 'Ysabeau Infant';
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.9rem;
+    position: relative;
+    text-shadow: 3px 6px 1px #000000;
+
+}
+
+.logo-titulo h1::before {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 285px;
+    width: 55px;
+    height: 5px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #ffdf00, #009c3b);
+    }
+
+    h1::after{
+        content: "";
+        background-image: url(img/assets/verificado.png);
+        width: 25px;
+        height: 30px;
+        background-repeat: no-repeat;
+        position: absolute;
+        right: 260px;
+        bottom: -0.2px;
+    }
+
+
+
+.link-container{
+    padding-top: 40px;
+    width: 768px;
+    max-width: 1200px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.link-container a{
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.link-container a:hover{
+    background-color: white;
+    color: black;
+}
+
+.link-container a{
+    font-family: 'Ysabeau Infant', sans-serif;
+    background-color: #0200006e;
+}
+/*secao tabela*/
+
+
+.table{
+    padding: 20px;
+    max-width: 1200px;
+    table-layout: auto;
+    margin: 0 auto;
+}
+
+.table-container{
+    width: 100%;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 0 20px;
+}
+
+
+.table th, .table td{
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.estatisticas h2{
+    font-size: 74px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: center;
+}
+
+div h2 {
+    font-size: 74px;
+    color: #fff;
+    text-shadow: 3px 6px 1px #000000;
+    }
+
+td, th{
+    padding: 20px;
+    text-align: center;
+}
+
+.table tbody tr:nth-of-type(odd){
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+.table tbody tr:nth-of-type(even){
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.estatisticas{
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.estatisticas img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.ytb::before{
+    content: "";
+    background-image: url(img/assets/youtube.png);
+    width: 50px;
+    height: 30px;
+    object-fit: cover;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 260px;
+    position: relative;
+}
+
+.ist::before{
+    content: "";
+    background-image: url(img/assets/instagram.png);
+    width: 50px;
+    height: 30px;
+    object-fit: cover;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 280px;
+    position: relative;
+}
+
+.x::before{
+    content: "";
+    background-image: url(img/assets/twitter.png);
+    width: 50px;
+    height: 30px;
+    object-fit: cover;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 290px;
+    position: relative;
+}
+
+.facebook::before{
+    content: "";
+    background-image: url(img/assets/facebook.png);
+    width: 50px;
+    height: 30px;
+    object-fit: cover;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 280px;
+    position: relative;
+}
+
+.tw::before{
+    content: "";
+    background-image: url(img/assets/twitch.png);
+    width: 50px;
+    height: 30px;
+    object-fit: cover;  
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 300px;
+    position: relative;
+}
+
+.brasil{
+    display: flex; /* Adiciona o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    padding-left: 30px; /* Espaço à esquerda para o ícone */
+}
+
+.brasil::before{
+    content: "";
+    background-image: url(img/assets/cbf.png);
+    display: inline-block;
+    left: 0;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    
+}
+
+.santos{
+    display: flex; /* Adiciona o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    padding-left: 30px; /* Espaço à esquerda para o ícone */
+}
+
+.santos::before{
+    content: "";
+    background-image: url(img/assets/santos.png);
+    display: inline-block;
+    left: 0;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin: 5px;
+}
+
+.barcelona{
+    display: flex; /* Adiciona o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    padding-left: 30px; /* Espaço à esquerda para o ícone */
+}
+
+.barcelona::before{
+    content: "";
+    background-image: url(img/assets/barcelona.png);
+    display: inline-block;
+    left: 0;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin: 5px;
+}
+
+.psg{
+    display: flex; /* Adiciona o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.psg::before{
+    content: "";
+    background-image: url(img/assets/psg.png);
+    display: inline-block;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.Al-Hilal{
+    display: flex; /* Adiciona o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+.Al-Hilal::before{
+    content: "";
+    background-image: url(img/assets/alhilal.png);
+    display: inline-block;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+
+
+
