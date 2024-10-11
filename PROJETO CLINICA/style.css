@@ -322,3 +322,14 @@ footer {
         justify-content: center;
     }
 }
+
+@media (width: 1080px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .section-top{
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
