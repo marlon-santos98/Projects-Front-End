@@ -312,7 +312,7 @@ footer {
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
     .link-top {
         width: 400px;
     }
