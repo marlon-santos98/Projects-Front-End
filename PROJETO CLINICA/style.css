@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Source code pro', sans-serif;
+    font-family: 'Source sans pro', sans-serif;
     width: 100%;
     overflow-x: hidden;
 }
@@ -156,6 +156,11 @@ header {
     font-size: 1.2rem;
     font-weight: 500;
 }
+.time h2, a{
+    text-decoration: none;
+    color: white;
+    font-weight: 550;
+}
 
 .time h3 {
     margin-bottom: 40px;
@@ -300,8 +305,20 @@ footer {
     .content-three img {
         display: none;
     }
+
     /*section four*/
-    .container-img{
+    .container-img {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .link-top {
+        width: 400px;
+    }
+
+    /*section four*/
+    .container-img {
         justify-content: center;
     }
 }
