@@ -204,17 +204,9 @@ footer {
 
 /*design responsivo celular*/
 @media(max-width:428px) {
-    body{
-        overflow-x: hidden;
-    }
-    header{
-        width: 100%;
-    }
     /*header*/
     .section-top {
         flex-direction: column;
-        margin: 0 auto;
-        justify-content: center;
     }
 
     .img-logo {
@@ -226,8 +218,9 @@ footer {
         margin: 0 auto;
         justify-content: center;
         border-top: 1px solid rgba(0, 0, 0, 0.219);
-        width: 90%;
+        width: 100%;
         padding: 10px;
+
     }
 
     /*section one*/
