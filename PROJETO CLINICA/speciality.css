@@ -229,6 +229,9 @@ footer {
     }
 
     /*footer*/
+    footer{
+        margin-top: 80px;
+    }
     .section-footer {
         width: 100%;
         text-align: center;

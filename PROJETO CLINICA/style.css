@@ -203,11 +203,18 @@ footer {
 }
 
 /*design responsivo celular*/
-@media(max-width:425px) {
-
+@media(max-width:428px) {
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        width: 100%;
+    }
     /*header*/
     .section-top {
         flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
     }
 
     .img-logo {
