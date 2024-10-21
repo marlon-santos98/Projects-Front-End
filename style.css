@@ -3,13 +3,13 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 
 body {
     background-color: #000;
     color: white;
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 /*general class*/
@@ -350,3 +350,15 @@ footer p {
     }
 }
 
+@media(max-width: 1080px){
+    .header-top{
+        padding: 10px;
+    }
+    .sct-1 h3{
+        font-size: 13px;
+    }
+    .tecnologies{
+        max-width: 1080px;
+        padding: 10px;
+    }
+}
