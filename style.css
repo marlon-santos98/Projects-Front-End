@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -297,12 +298,15 @@ footer p {
         padding: 10px;
     }
     .tecnologies{
-        max-width: 412px;
+        max-width: 428px;
+        flex-wrap: wrap;
+        flex-wrap: 1;
+        justify-content: center;
         flex-direction: column;
         gap: 3px;
     }
-    .tecnologies a{
-        font-size: 5px;
+    .tecnologies p{
+        font-size: 15px;
         padding: 1px;
     }
     /*sct 4*/
@@ -345,3 +349,4 @@ footer p {
         width: 360px;
     }
 }
+
