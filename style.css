@@ -253,9 +253,17 @@ footer p {
 }
 
 /*responsivo*/
+@media(max-width: 375px){
+    .header-top{
+        margin: 0px 10px;
+    }
+    .tecnologies p{
+        width: 340px;
+    }
+}
 @media(max-width: 428px) {
     .header-top{
-        width: 380px;
+        max-width: 380px;
         justify-content: space-evenly;
     }
     .header-top h1 {
@@ -353,6 +361,8 @@ footer p {
 @media(max-width: 1080px){
     .header-top{
         padding: 10px;
+        max-width: 1080px;
+        justify-content: space-between;
     }
     .sct-1 h3{
         font-size: 13px;
