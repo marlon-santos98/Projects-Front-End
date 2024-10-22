@@ -366,6 +366,9 @@ img {
     .sct-4 h2{
         font-size: 2.2rem;
     }
+    .sct-1 h3{
+        font-size: 0.6rem;
+    }
     footer p{
         text-align: center;
         font-size: 1rem;
