@@ -257,7 +257,7 @@ img {
 }
 
 /*responsivo*/
-@media(min-width: 769px){
+@media(min-width: 760px){
     .header-top{
         padding: 0px 50px;
     }
