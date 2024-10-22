@@ -316,3 +316,19 @@ img {
         margin-bottom: -200px;
     }
 }
+@media(max-width: 350px){
+    .header-top h1{
+        font-size: 0.8rem;
+    }
+    .header-top a{
+        font-size: 0.5rem;
+        padding: 3px 5px;
+    }
+    .header-top{
+        align-items: center;
+        padding-right: 10px;
+    }
+    nav{
+        margin-bottom: 5px;
+    }
+}
