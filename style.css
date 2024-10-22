@@ -251,8 +251,68 @@ footer p {
     justify-content: space-between;
 
 }
-img{
+
+img {
     max-width: 100%;
 }
 
 /*responsivo*/
+@media(max-width: 480px) {
+    .header-top h1 {
+        font-size: 1rem;
+    }
+
+    .header-top a {
+        font-size: 0.5rem;
+    }
+
+    .header-top {
+        margin: 0px 25px;
+    }
+
+    .sct-1 h2 {
+        font-size: 2rem;
+        letter-spacing: 0.1px;
+        margin-bottom: 1px;
+    }
+
+    .content-sct-1 {
+        font-size: 1rem;
+    }
+
+    span {
+        font-size: 1rem;
+    }
+
+    .sct-1 p {
+        text-align: center;
+        font-size: 1rem;
+        padding: 0px 20px;
+    }
+
+    .sct-2 p {
+        text-align: center;
+        font-size: 1rem;
+        padding: 0px 30px;
+    }
+    .sct-3{
+        width: 100%;
+    }
+
+    .sct-3 p {
+        text-align: center;
+        font-size: 1rem;
+        padding: 0px 30px;
+    }
+    .tecnologies{
+        flex-wrap: wrap;
+        flex: 1;
+        flex-direction: column;
+        width: 100%;
+        gap: 5px;
+        padding: 0px 50px;
+    }
+    .sct-4{
+        margin-bottom: -200px;
+    }
+}
