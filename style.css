@@ -267,6 +267,9 @@ img {
     .sct-4{
         padding: 0px 30px;
     }
+    .sct-1 h3{
+        text-align: center;
+    }
 }
 @media(max-width: 480px) {
     .header-top h1 {
@@ -326,6 +329,9 @@ img {
     .sct-4{
         margin-bottom: -200px;
     }
+    .sct-1 h3{
+        text-align: center;
+    }
 }
 @media(max-width: 350px){
     .header-top h1{
@@ -341,6 +347,9 @@ img {
     }
     nav{
         margin-bottom: 5px;
+    }
+    .sct-1 h3{
+        text-align: center;
     }
 }
 @media(max-width: 317px){
@@ -367,7 +376,7 @@ img {
         font-size: 2.2rem;
     }
     .sct-1 h3{
-        font-size: 0.6rem;
+        text-align: center;
     }
     footer p{
         text-align: center;
