@@ -1,32 +1,41 @@
-*{
+* {
     font-family: sans-serif;
     box-sizing: border-box;
     text-decoration: none;
     margin: 0;
     padding: 0;
 }
-html, body{
+
+html,
+body {
     overflow-x: hidden;
+    width: 100%;
+    /* Garante que o contêiner ocupe 100% da tela */
+    max-width: 100vw;
+    /* Limita a largura ao tamanho da viewport */
 }
-header{
+
+header {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
     overflow: hidden;
 }
-section{
+
+section {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
     overflow: hidden;
 }
-footer{
+
+footer {
     display: flex;
     flex-wrap: wrap;
     flex: 1;
 }
 
-.banner{
+.banner {
     background-image: url(img/banner-topo.jpg);
     width: 100%;
     padding: 120px 80px;
@@ -37,7 +46,7 @@ footer{
     flex-direction: column;
 }
 
-.logotipo{
+.logotipo {
     max-width: 250px;
     width: 100%;
     margin: 0 auto;
@@ -45,7 +54,7 @@ footer{
     margin-left: 0;
 }
 
-.p1{
+.p1 {
     font-size: 35px;
     margin-bottom: 0px 0px 5px 0px;
     text-align: center;
@@ -53,18 +62,18 @@ footer{
     font-weight: 500;
 }
 
-.p2{
+.p2 {
     width: 260px;
     font-size: 14px;
     text-align: center;
 }
 
-img{
+img {
     width: 30px;
     margin-right: 5px;
 }
 
-.container2{
+.container2 {
     max-width: 1024px;
     border-radius: 10px;
     padding: 40px;
@@ -76,41 +85,42 @@ img{
     margin-top: 80px;
 }
 
-.p3{
+.p3 {
     font-weight: 800;
     font-size: 60px;
     color: #3c184e;
     margin-bottom: 30px;
 }
 
-a{
+a {
     color: white;
     background-color: #3c184e;
     border-radius: 10px;
     padding: 10px 25px;
 }
-.service1{
+
+.service1 {
     margin: 50px auto;
     font-size: 15px;
 }
 
-.p{
+.p {
     margin-bottom: 15px;
     line-height: 25px;
 }
 
-span{
+span {
     font-weight: bold;
 }
 
-.h2service{
+.h2service {
     margin: 90px 0px 60px 0px;
     text-align: center;
 }
 
-.imgservice{
+.imgservice {
     height: 190px;
-    width:115px;
+    width: 115px;
     max-width: 1024;
     margin-left: -7px;
     border-radius: 5px;
@@ -118,66 +128,66 @@ span{
     margin: 0 auto;
 }
 
-.imagens{
+.imagens {
     max-width: 1024px;
 }
 
-.p4{
+.p4 {
     padding: 110px 0 30px 0px;
     font-size: 25px;
     color: white;
 }
 
-.conteudo2{
+.conteudo2 {
     background-color: #3c184e;
     height: 300px;
     text-align: center;
     margin-top: 25px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     margin: 0 auto;
     width: 1290px;
 }
 
-.marcas{
+.marcas {
     height: auto;
     margin: 0 auto;
     text-align: center;
     margin-top: 80px;
 }
 
-.marca1 img{
+.marca1 img {
     height: 90px;
     width: 150px;
 }
 
-.marca1 h2{
+.marca1 h2 {
     margin-bottom: 50px;
 }
 
-.rodape{
+.rodape {
     margin: 0 auto;
     text-align: center;
 }
 
-.rodape h2{
+.rodape h2 {
     color: #3c184e;
     font-weight: bold;
     margin: 80px 0px 40px 0px;
 }
 
-.rodape p{
+.rodape p {
     margin-bottom: 40px;
 }
 
-iframe{
+iframe {
     display: flex;
     margin-bottom: 90px;
     width: 1200px;
     margin-left: 30px;
 }
 
-.developer{
+.developer {
     background-color: #3c184e;
     color: white;
     text-align: center;
@@ -188,37 +198,48 @@ iframe{
     min-width: 500px;
 }
 
-@media(max-width: 399px){
-    html, body{
+@media(max-width: 399px) {
+
+    html,
+    body {
         overflow-x: hidden;
         width: 100%;
+        /* Garante que o contêiner ocupe 100% da tela */
+        max-width: 100vw;
+        /* Limita a largura ao tamanho da viewport */
     }
-    .logotipo .p1{
+
+    .logotipo .p1 {
         font-size: 25px;
     }
-    .container2 .p3{
+
+    .container2 .p3 {
         font-size: 20px;
     }
-    .service1{
+
+    .service1 {
         display: flex;
         flex-direction: column;
         width: 300px;
     }
-    .h2service{
+
+    .h2service {
         font-size: 25px;
         width: 100%;
         margin: 10px auto;
     }
-    .imagens{
+
+    .imagens {
         display: flex;
         margin: 0 auto;
         justify-content: space-evenly;
         flex-wrap: wrap;
         gap: 10px;
         flex: 1;
-        
+
     }
-    .maps{
+
+    .maps {
         display: flex;
         justify-content: center;
         margin-top: 20px;
@@ -226,55 +247,72 @@ iframe{
         height: 300px;
         width: 100%;
     }
-    .maps h2{
+
+    .maps h2 {
         margin-bottom: 10px;
     }
-    iframe{
+
+    iframe {
         width: 380px;
         margin: 0 auto;
     }
-    footer{
+
+    footer {
         display: flex;
         width: 100%;
         margin: 0 auto;
     }
-    .rodape{
+
+    .rodape {
         text-align: center;
         width: 390px;
         margin: 30px 0 0 40px;
     }
 
 }
-@media(max-width: 340px){
-    html, body{
+
+@media(max-width: 340px) {
+
+    html,
+    body {
         overflow-x: hidden;
         width: 100%;
+        max-width: 100vw;
+        /* Limita a largura ao tamanho da viewport */
     }
-    .logotipo .p1{
+
+    .logotipo .p1 {
         font-size: 15px;
     }
-    .logotipo .p2{
+
+    .logotipo .p2 {
         font-size: 20px;
     }
-    .container2 a{
+
+    .container2 a {
         font-size: 10px;
     }
-    .service1{
+
+    .service1 {
         padding: 20px;
     }
-    ul{
+
+    ul {
         margin-bottom: 15px;
     }
-    .conteudo2 .p4{
+
+    .conteudo2 .p4 {
         font-size: 13px;
     }
-    footer{
+
+    footer {
         width: 100%;
         justify-content: center;
         text-align: center;
         display: flex;
     }
-    .rodape{
+
+    .rodape {
         margin: 10px auto;
         width: 300px;
         padding: 10px;
