@@ -189,6 +189,9 @@ iframe{
 }
 
 @media(max-width: 399px){
+    body{
+        overflow-x: hidden;
+    }
     .logotipo .p1{
         font-size: 25px;
     }
@@ -238,6 +241,38 @@ iframe{
         text-align: center;
         width: 390px;
         margin: 30px 0 0 40px;
+    }
+
+}
+@media(max-width: 340px){
+    .logotipo .p1{
+        font-size: 15px;
+    }
+    .logotipo .p2{
+        font-size: 20px;
+    }
+    .container2 a{
+        font-size: 10px;
+    }
+    .service1{
+        padding: 20px;
+    }
+    ul{
+        margin-bottom: 15px;
+    }
+    .conteudo2 .p4{
+        font-size: 13px;
+    }
+    footer{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+    .rodape{
+        margin: 10px auto;
+        width: 300px;
+        padding: 10px;
     }
 
 }
