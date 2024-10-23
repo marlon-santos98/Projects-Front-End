@@ -5,6 +5,26 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    overflow: hidden;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    overflow: hidden;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
 
 .banner{
     background-image: url(img/banner-topo.jpg);
@@ -13,6 +33,8 @@
     height: 700px;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 .logotipo{
@@ -47,7 +69,7 @@ img{
     border-radius: 10px;
     padding: 40px;
     margin-top: 70px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     background-color: #ffffffc4;
     text-align: center;
     height: 290px;
@@ -67,18 +89,8 @@ a{
     border-radius: 10px;
     padding: 10px 25px;
 }
-
-.service{
-    color: #3c184e;
-    height: 700px;
-    width: 100%;
-    max-width: 1024px;
-    margin: 0 auto;
-}
-
 .service1{
-    margin: 0 auto;
-    padding: 0px 210px 0px 210px;
+    margin: 50px auto;
     font-size: 15px;
 }
 
@@ -92,7 +104,7 @@ span{
 }
 
 .h2service{
-    margin: 90px 0px 50px 0px;
+    margin: 90px 0px 60px 0px;
     text-align: center;
 }
 
@@ -108,14 +120,6 @@ span{
 
 .imagens{
     max-width: 1024px;
-    margin-bottom: -170px;
-}
-
-.conteudo{
-    background-color: #3c184e;
-    height: 300px;
-    text-align: center;
-    margin-top: -25px;
 }
 
 .p4{
@@ -125,12 +129,18 @@ span{
 }
 
 .conteudo2{
+    background-color: #3c184e;
+    height: 300px;
+    text-align: center;
+    margin-top: 25px;
+    display: flex; 
+    flex-direction: column;
     margin: 0 auto;
-    width: 500px;
+    width: 1290px;
 }
 
 .marcas{
-    height: 500px;
+    height: auto;
     margin: 0 auto;
     text-align: center;
     margin-top: 80px;
@@ -161,10 +171,10 @@ span{
 }
 
 iframe{
-    width: 900px;
-    max-width: 1024px;
-    min-width: 500px;
+    display: flex;
     margin-bottom: 90px;
+    width: 1200px;
+    margin-left: 30px;
 }
 
 .developer{
@@ -178,3 +188,56 @@ iframe{
     min-width: 500px;
 }
 
+@media(max-width: 399px){
+    .logotipo .p1{
+        font-size: 25px;
+    }
+    .container2 .p3{
+        font-size: 20px;
+    }
+    .service1{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .h2service{
+        font-size: 25px;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .imagens{
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 10px;
+        flex: 1;
+        
+    }
+    .maps{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        border-radius: 10px;
+        height: 300px;
+        width: 100%;
+    }
+    .maps h2{
+        margin-bottom: 10px;
+    }
+    iframe{
+        width: 380px;
+        margin: 0 auto;
+    }
+    footer{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .rodape{
+        text-align: center;
+        width: 390px;
+        margin: 30px 0 0 40px;
+    }
+
+}
