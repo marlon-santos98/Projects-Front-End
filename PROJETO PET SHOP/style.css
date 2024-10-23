@@ -191,6 +191,7 @@ iframe{
 @media(max-width: 399px){
     html, body{
         overflow-x: hidden;
+        width: 100%;
     }
     .logotipo .p1{
         font-size: 25px;
@@ -247,6 +248,7 @@ iframe{
 @media(max-width: 340px){
     html, body{
         overflow-x: hidden;
+        width: 100%;
     }
     .logotipo .p1{
         font-size: 15px;
