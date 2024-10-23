@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-body{
+html, body{
     overflow-x: hidden;
 }
 header{
@@ -189,7 +189,7 @@ iframe{
 }
 
 @media(max-width: 399px){
-    body{
+    html, body{
         overflow-x: hidden;
     }
     .logotipo .p1{
@@ -245,6 +245,9 @@ iframe{
 
 }
 @media(max-width: 340px){
+    html, body{
+        overflow-x: hidden;
+    }
     .logotipo .p1{
         font-size: 15px;
     }
