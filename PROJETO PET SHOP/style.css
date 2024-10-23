@@ -46,14 +46,6 @@ footer {
     flex-direction: column;
 }
 
-.logotipo {
-    max-width: 250px;
-    width: 100%;
-    margin: 0 auto;
-    color: #3c184e;
-    margin-left: 0;
-}
-
 .p1 {
     font-size: 35px;
     margin-bottom: 0px 0px 5px 0px;
@@ -209,10 +201,6 @@ iframe {
         /* Limita a largura ao tamanho da viewport */
     }
 
-    .logotipo .p1 {
-        font-size: 25px;
-    }
-
     .container2 .p3 {
         font-size: 20px;
     }
@@ -281,12 +269,20 @@ iframe {
         /* Limita a largura ao tamanho da viewport */
     }
 
-    .logotipo .p1 {
-        font-size: 15px;
+    .banner {
+        width: 100%;
+        max-width: 100vw;
+        text-align: center;
     }
-
-    .logotipo .p2 {
-        font-size: 20px;
+    .lg{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-right: 90px;
+    }
+    .lg .p2{
+        padding-right: 55px;
     }
 
     .container2 a {
