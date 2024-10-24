@@ -286,7 +286,8 @@ iframe {
     }
 
     .container2 a {
-        font-size: 10px;
+        font-size: 8px;
+        width: 300px;
     }
 
     .service1 {
@@ -314,4 +315,15 @@ iframe {
         padding: 10px;
     }
 
+}
+@media(max-width: 288px){
+    .p1{
+        font-size: 25px;
+        padding-right: 55px;
+    }
+    .p2{
+        width: 200px;
+        font-size: 13px;
+        padding-right: 70px;
+    }
 }
