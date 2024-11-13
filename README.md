@@ -1,5 +1,4 @@
-
-Olá!
+<h1>Olá!</h1>
 
 Neste repositório, estão disponíveis 8 landing pages que mostram minha evolução em HTML5 e CSS3. Elas incluem desde páginas mais simples e sem responsividade até outras mais avançadas, com recursos de responsividade aplicados.
 
