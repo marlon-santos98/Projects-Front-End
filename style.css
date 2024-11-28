@@ -226,6 +226,13 @@ span {
     transition: 300ms;
 }
 
+.sct-4 img{
+    transform: 0.5s;
+}
+.sct-4 img:hover{
+    transform: scale(1.3);
+}
+
 /*footer*/
 footer {
     display: flex;
