@@ -270,5 +270,65 @@ td{
     padding: 1%;
 }
 
+@media(max-width: 428px){
+    .top-nav{
+        max-width: 100%;
+    }
+    .icon p{
+        margin: 0;
+        text-align: center;
+    }
+    .icon{
+        padding: 10px;
+        width: 100%;
+        margin: 60px 0 100px 0;
+    }
+    .nav{
+        margin: 0 auto;
+        width: 428px;
+        text-align: center;
+    }
+    /*section 1*/
+    .section-1{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .banner{
+        margin: 0;
+    }
+    .information{
+        margin: 0 auto;
+        height: auto;
+        width: 100%;
+        padding: 15px;
+    }
+    .information p{
+        width: 100%;
+    }
+    .information h2{
+        font-size: 1rem;
+        width: 100%;
+    }
+        /*section 2*/
+    .section-2{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        height: 100%;
+    }
+    .content-2{
+        font-size: 0.8rem;
+    }
+    .imgsection{
+        font-size: 1rem;
+        padding: 4px;
+        margin: 10px 0 0 0 ;
+    }
+    /*section 3*/
+}
+
+
 
 

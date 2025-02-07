@@ -208,7 +208,6 @@ footer {
     .section-top {
         flex-direction: column;
     }
-
     .img-logo {
         margin-top: 10px;
     }
@@ -226,6 +225,7 @@ footer {
     /*section one*/
     .section-two {
         height: 200px;
+        width: 428px;
     }
 
     .section-two p {
