@@ -273,7 +273,6 @@ td{
 @media(max-width: 432px){
     .top-nav{
         max-width: 100%;
-        background-color: yellow;
     }
     .icon p{
         margin: 0;
@@ -282,12 +281,15 @@ td{
     .icon{
         padding: 10px;
         width: 100%;
-        margin: 60px 0 100px 0;
+        margin: 95px 0 100px 0;
     }
     .nav{
         margin: 0 auto;
         width: 428px;
         text-align: center;
+    }
+    .icon img{
+        display: none;
     }
     /*section 1*/
     .section-1{
@@ -295,6 +297,11 @@ td{
         flex-wrap: wrap;
         text-align: center;
         justify-content: center;
+        height: 400px;
+    }
+    .icon h1{
+        margin: 30px  0 0 0;
+        text-align: center;
     }
     .banner{
         margin: 0;
@@ -328,8 +335,63 @@ td{
         margin: 10px 0 0 0 ;
     }
     /*section 3*/
+    .section-3{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100%;
+        padding: 20px;
+        font-size: 0.4rem;
+        overflow: hidden;
+    }
+    .section-3 h2{
+        margin: 30px 0 0 0 ;
+        width: 100%;
+
+    }
+    .information-3{
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .information-3 h3{
+        font-size: 0.5rem;
+    }
+    .information-3 p{
+        font-size: 0.4rem;
+    }
+    /*section 4*/
+    .section-4{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        font-size: 0.5rem;
+    }
+    table{
+        padding: 0px;
+        margin: 0;
+    }
+    /*section 6*/
+    .section-6{
+        max-width: 100%; /* Garante que a div não ultrapasse a largura da sua área pai */
+        overflow: hidden;
+        padding: 10px;
+    }
+    .flex{
+        margin: 60px 0 0 0;
+        text-align: center;
+        width: 100%;
+        height: 80px;
+    }
+    .flex h2{
+        margin: 0;
+    }
+    .flex p{
+        margin: 0;
+    }
+    .flex img{
+        padding: 10px;
+    }
+
 }
-
-
 
 
