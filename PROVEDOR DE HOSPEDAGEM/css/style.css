@@ -270,7 +270,7 @@ td{
     padding: 1%;
 }
 
-@media(max-width: 428px){
+@media(max-width: 432px){
     .top-nav{
         max-width: 100%;
         background-color: yellow;
