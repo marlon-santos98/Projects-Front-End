@@ -273,6 +273,7 @@ td{
 @media(max-width: 428px){
     .top-nav{
         max-width: 100%;
+        background-color: yellow;
     }
     .icon p{
         margin: 0;
