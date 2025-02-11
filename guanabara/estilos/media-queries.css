@@ -1,0 +1,35 @@
+@media (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top, green, purple);
+    }
+    section#login{
+        width: 90vw;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media (min-width: 992px){
+    body{
+        background-image: linear-gradient(to top, green, purple);
+    }   
+    section#login{
+        width: 990px;
+    }
+    section#login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+}
