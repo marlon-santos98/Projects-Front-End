@@ -31,7 +31,7 @@ section#login  div#imagem{
     height: 200px;
     overflow: hidden;
     background-size: cover;
-    border-radius: 20px 20px 0 0;
+    border-radius: 0px 0px 0 0;
     display: block;
     transition: width 0.2s, height 0.2s;
     transition-timing-function: ease;
@@ -39,4 +39,11 @@ section#login  div#imagem{
 section#login div#formulario{
     padding: 10px;
     display: block;
+}
+div#formulario h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario p{
+    font-size: 0.8rem;
 }
