@@ -1,0 +1,29 @@
+/* Basic reset for layout */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* grid container */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+/* individual grid items */
+.item{
+    background-color: #007acc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+/* Full-width item using negative line numbers */
+.full-span{
+    grid-column: 1 / -1;
+    background-color: #00c6c2;
+}
